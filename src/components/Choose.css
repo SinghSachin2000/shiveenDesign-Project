@@ -1,0 +1,104 @@
+
+.chooseitem{
+    overflow-x: hidden;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-top: 23rem;
+}
+.headingChoose{
+    text-align: center;
+    padding: 2rem;
+    font-size: xx-large;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px gray;
+}
+.card{
+    width: 80%;
+    height: 13rem;
+    margin:1rem;
+    border: none;
+    transition: all;
+    transition-duration: 900ms;
+    scale: 1;
+}
+.card:hover{
+scale: 1.2;
+background-color: rgb(244, 241, 241);
+}
+.firstDiv{
+    position: absolute;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    top: 15%;
+    left: 2%;
+}
+.heading{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: x-large;
+    font-weight: 500;
+}
+.paragraph{
+    margin-top: 1rem;
+    text-align: center;
+    width: 25rem;
+    font-size: larger;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    margin-top: -12rem;
+    height: 21rem;
+    padding-bottom: 6rem;
+}
+.logo{
+    width: 10rem;
+    margin: 4rem;
+}
+.logoset{
+    position: relative;
+}
+.logoname{
+    position: absolute;
+    color: white;
+    top: 95%;
+    font-weight: 700;
+    left: 5rem;
+}
+.logoDescription{
+    position: absolute;
+    top: 104%;
+    left: 3.7rem;
+    color: rgb(173, 170, 170);
+}
+.footersec{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.part1{
+    margin: 5rem;
+}
+.mainhead{
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+#subtopic{
+    color: white;
+    padding-top: 0.3rem;
+    transition: all;
+    transition-duration: 900ms;
+    scale: 1;
+}
+#subtopic:hover {
+    color:gray;
+    cursor: pointer;
+    text-decoration: underline;
+    scale: 1.2;
+}
